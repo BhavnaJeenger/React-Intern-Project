@@ -66,7 +66,7 @@ const HeroSection = () => {
   const navigate = useNavigate();
   return (
     <div className="bg-[#0a1f44] text-white py-8 md:py-12 lg:py-10 relative overflow-hidden font-sans">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Navbar */}
         <nav className="flex justify-between items-center pb-8">
           <div className="text-2xl font-bold">Polytrend</div>
@@ -119,7 +119,7 @@ const HeroSection = () => {
             />
           </div> */}
           {/* Features Scroll Section (instead of Hero Image) */}
-          <div className="w-full lg:w-1/2 max-h-[420px] overflow-y-auto scrollbar-hidden pr-2 space-y-4 ">
+          <div className="w-full lg:w-2/3 max-h-[420px] overflow-y-auto scrollbar-hidden pr-2  grid grid-cols-1 md:grid-cols-2 gap-2">
             {features.map((item, idx) => (
               <div
                 key={idx}
